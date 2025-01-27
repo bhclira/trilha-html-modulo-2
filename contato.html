@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="principal.html" target="_blank">Voltar</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="images/header2.jpg" alt="olho" width="20%">
+                <h1>Clinica Dr. Silvestre "Eye of the Tiger" Stalone</h1>
+            </div>
+    
+            <div class="content">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para agendar uma consulta ou tirar dúvidas sobre nossos serviços. Estamos à disposição para atendê-lo e ajudá-lo a cuidar da saúde dos seus olhos.</p>
+
+                <fieldset>
+                    <legend>Informações da Clínica</legend>
+                    <p>Nossa localização:</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15803.254016165623!2d-34.94582714013763!3d-8.018158424111629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1993c232fead%3A0xbe74ac887897862f!2sApipucos%2C%20Recife%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1738001233765!5m2!1spt-BR!2sbr" width="290" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+
+                    <p>Endereço: Rua das Clínicas, 98 - Recife - Pernambuco</p>
+                    <p>Fone/whatsapp: 81-9222-3222 | Fixo: 81-3222-3222</p>
+                </fieldset>
+                
+                <p> </p>
+                
+                <fieldset>
+                    <legend>Entre em contato conosco</legend>
+                    
+                    <form method="get" onsubmit="alert('Mensagem Enviada com Sucesso!')">
+                        <label for="nome">Nome:</label><input type="text" name="nome" placeholder="seu Nome" title="Nome do contato"> <br>
+                        <label for="email">Email:</label><input type="email" name="email" placeholder="seu Email" title="Email para contato"> <br>
+                        <label for="telefone">Telefone:</label><input type="number" name="telefone" placeholder="seu Telefone" title="Telefone para contato"> <br>
+                        <label for="mensagem">Mensagem:</label><textarea name="mensagem" placeholder="Digite sua mensagem" title="Mensagem para contato"></textarea> <br>                    
+
+                    <div class="button-container">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    </div>
+
+                    </form>
+                </fieldset>
+            </div>
+    
+            <div class="footer">
+                <p>Rua das Clínicas, 98 - Recife - Pernambuco | 81-3222-3222 | clinicadosolhos@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

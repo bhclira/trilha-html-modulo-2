@@ -7,6 +7,32 @@ body {
     justify-content: center;
 }
 
+fieldset {
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset input, fieldset textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -20,11 +46,34 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: thistle;
     padding: 10px 20px 0px;
+    padding-inline-start: 15;
 }
+
+.menu li {
+    list-style: none;
+    margin-bottom: 10px;
+    
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul {
+    padding: 0;
+}
+.menu ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
 .header {
-    background-color: rgb(5, 108, 108);
+    display: flex;
+    align-items: center;
+    background-color: white;
     min-height: 150px;
 }
 .content {
@@ -32,7 +81,25 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+.content p {
+    margin: 20px 30px;
+}
 .footer {
+    display: flex;
     background-color: rgb(99, 56, 240);
+    color: antiquewhite;
+    font-size: 16px;
     min-height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container button {
+    flex: 1;
 }
